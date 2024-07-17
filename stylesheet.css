@@ -56,16 +56,6 @@
     padding: 0 40px;
   }
 }
-
-.shot {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: black;
-}
-
 h1{
     text-align: center;
 }
@@ -79,4 +69,17 @@ main {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.centered {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
 }
